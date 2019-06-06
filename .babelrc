@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "env",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-async-to-generator",
+    "transform-decorators-legacy",
+    "transform-function-bind",
+    "transform-class-properties",
+    "lodash"
+  ]
+}

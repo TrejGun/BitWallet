@@ -1,0 +1,422 @@
+{
+  "objects": [
+    {
+      "symbol": "ethaud",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "aud",
+        "name": "Australian Dollar"
+      }
+    },
+    {
+      "symbol": "ethhkd",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "hkd",
+        "name": "Hong Kong Dollar"
+      }
+    },
+    {
+      "symbol": "ethsgd",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "sgd",
+        "name": "Singapore Dollar"
+      }
+    },
+    {
+      "symbol": "ethidr",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "idr",
+        "name": "Indonesian Rupiah"
+      }
+    },
+    {
+      "symbol": "ethphp",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "php",
+        "name": "Philippine Peso"
+      }
+    },
+    {
+      "symbol": "ethadx",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "adx",
+        "name": "AdEx"
+      }
+    },
+    {
+      "symbol": "ethant",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "ant",
+        "name": "Aragon"
+      }
+    },
+    {
+      "symbol": "ethbat",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "bat",
+        "name": "Basic Attention Token"
+      }
+    },
+    {
+      "symbol": "ethbnt",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "bnt",
+        "name": "Bancor"
+      }
+    },
+    {
+      "symbol": "ethbtc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "btc",
+        "name": "Bitcoin"
+      }
+    },
+    {
+      "symbol": "ethcad",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "cad",
+        "name": "Canadian Dollar"
+      }
+    },
+    {
+      "symbol": "ethcvc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "cvc",
+        "name": "Civic"
+      }
+    },
+    {
+      "symbol": "ethdash",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "dash",
+        "name": "Dash"
+      }
+    },
+    {
+      "symbol": "ethetc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "etc",
+        "name": "Ethereum Classic"
+      }
+    },
+    {
+      "symbol": "etheur",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "eur",
+        "name": "Euro"
+      }
+    },
+    {
+      "symbol": "ethgbp",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "gbp",
+        "name": "Pound Sterling"
+      }
+    },
+    {
+      "symbol": "ethgno",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "gno",
+        "name": "Gnosis"
+      }
+    },
+    {
+      "symbol": "ethgnt",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "gnt",
+        "name": "Golem"
+      }
+    },
+    {
+      "symbol": "ethjpy",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "jpy",
+        "name": "Japanese Yen"
+      }
+    },
+    {
+      "symbol": "ethlsk",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "lsk",
+        "name": "Lisk"
+      }
+    },
+    {
+      "symbol": "ethltc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "ltc",
+        "name": "Litecoin"
+      }
+    },
+    {
+      "symbol": "ethmco",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "mco",
+        "name": "Monaco"
+      }
+    },
+    {
+      "symbol": "ethomg",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "omg",
+        "name": "OmiseGO"
+      }
+    },
+    {
+      "symbol": "ethpay",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "pay",
+        "name": "TenX"
+      }
+    },
+    {
+      "symbol": "ethqtum",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "qtum",
+        "name": "Qtum"
+      }
+    },
+    {
+      "symbol": "ethrep",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "rep",
+        "name": "Augur"
+      }
+    },
+    {
+      "symbol": "ethrlc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "rlc",
+        "name": "iEx.ec"
+      }
+    },
+    {
+      "symbol": "ethrub",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "rub",
+        "name": "Russian Ruble"
+      }
+    },
+    {
+      "symbol": "ethsc",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "sc",
+        "name": "Siacoin"
+      }
+    },
+    {
+      "symbol": "ethsnt",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "snt",
+        "name": "Status"
+      }
+    },
+    {
+      "symbol": "ethsteem",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "steem",
+        "name": "Steem"
+      }
+    },
+    {
+      "symbol": "ethuah",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "uah",
+        "name": "Ukrainian Hryvnia"
+      }
+    },
+    {
+      "symbol": "ethusd",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "usd",
+        "name": "United States Dollar"
+      }
+    },
+    {
+      "symbol": "ethxem",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "xem",
+        "name": "NEM"
+      }
+    },
+    {
+      "symbol": "ethxlm",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "xlm",
+        "name": "Stellar Lumen"
+      }
+    },
+    {
+      "symbol": "ethxmr",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "xmr",
+        "name": "Monero"
+      }
+    },
+    {
+      "symbol": "ethxrp",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "xrp",
+        "name": "Ripple"
+      }
+    },
+    {
+      "symbol": "ethzec",
+      "base": {
+        "code": "eth",
+        "name": "Ethereum"
+      },
+      "quote": {
+        "code": "zec",
+        "name": "Zcash"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+.editable-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+
+  &__value {
+    max-width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  &__input {
+    width: 250px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid $alto;
+
+    &--error {
+      border: 1px solid $monzo;
+    }
+  }
+
+  &__icon-wrapper {
+    margin-left: 10px;
+  }
+
+  &__icon {
+    cursor: pointer;
+    color: $dusty-gray;
+  }
+}

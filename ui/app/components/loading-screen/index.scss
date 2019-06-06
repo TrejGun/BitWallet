@@ -1,0 +1,26 @@
+.loading-screen {
+  position: absolute;
+  left: 0;
+  top: 46px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  z-index: 1000;
+
+  .spinner {
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+  }
+
+  &__message {
+    color: #1b344d;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+  }
+}

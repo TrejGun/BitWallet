@@ -1,0 +1,53 @@
+.transactions {
+  .list-group-item {
+    border: 0;
+
+    &:nth-child(even) {
+      background-color: #ffffff;
+    }
+
+    &:nth-child(odd) {
+      background-color: rgba(92, 161, 241, .1);
+    }
+
+    .status {
+      img {
+        float: left;
+        margin-right: 15px;
+      }
+
+      .date {
+        color: #9b9b9b;
+        font-size: 9px;
+      }
+
+      .type {
+        color: #000000;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    }
+
+    .from {
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+
+      .name {
+        text-align: center;
+      }
+    }
+
+    .to {
+      img {
+        margin: 0 auto;
+        display: block;
+      }
+
+      .value {
+        text-align: center;
+      }
+    }
+  }
+}

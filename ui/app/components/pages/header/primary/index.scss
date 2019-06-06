@@ -1,0 +1,11 @@
+@import "settings/index";
+@import "brand/index";
+
+.navbar {
+  &.primary {
+    margin-bottom: 0;
+    border: 0;
+    border-bottom: 1px solid #eceef1;
+    background-color: #ffffff;
+  }
+}

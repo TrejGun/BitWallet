@@ -1,0 +1,54 @@
+{
+  "app": {
+    "name": "BitWallet",
+    "language": {
+      "en": "English",
+      "zh": "简体中文",
+      "ja": "日本語",
+      "fr": "Français",
+      "pt": "Português",
+      "es": "Español",
+      "ru": "Русский"
+    }
+  },
+  "buttons": {
+    "accept": "Принять",
+    "addTokens": "Добавить токены",
+    "back": "Назад",
+    "browse": "Выбрать файл",
+    "buy": "Купить",
+    "cancel": "Отмена",
+    "continue": "Продолжить",
+    "confirm": "Подтвердить",
+    "create": "Создать",
+    "copy": "Копировать",
+    "deposit": "Deposit",
+    "import": "Импортировать",
+    "hide": "Спрятать",
+    "login": "Войти",
+    "next": "Дальше",
+    "nevermind": "Nevermind",
+    "ok": "Ok",
+    "reset": "Reset",
+    "send": "Отправить",
+    "save": "Сохранить",
+    "sign": "Подписать"
+  },
+  "pages": {
+    "settings": {
+      "title": "Настройки",
+      "tabs": {
+        "settings": {
+          "title": "Настройки",
+          "currency": {
+            "title": "Курсы валют",
+            "description": "Обновлено {date}"
+          },
+          "locale": {
+            "title": "Язык"
+          }
+        }
+      }
+    }
+  }
+}

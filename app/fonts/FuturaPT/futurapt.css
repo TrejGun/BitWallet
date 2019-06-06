@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Light.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./LightOblique.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Book.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./BookOblique.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Medium.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./MediumOblique.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Demi.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./DemiOblique.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Heavy.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./HeavyOblique.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./BoldOblique.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPTC";
+  src: url("./BookCondenced.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./BookObliqueCondenced.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./MediumCondenced.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./MediumObliqueCondenced.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./BoldCondenced.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./BoldObliqueCondenced.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "FuturaPT";
+  src: url("./ExtraBoldCondenced.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "q";
+  src: url("./ExtraBoldCondenced.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: auto;
+}
+
+.FuturaPT {
+  font-family: "FuturaPT", sans-serif;
+}
+
+.FturaPTC {
+  font-family: "FuturaPTC", sans-serif;
+}
+

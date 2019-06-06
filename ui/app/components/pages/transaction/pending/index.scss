@@ -1,0 +1,80 @@
+.confirm {
+  .list-group-item {
+    border: none;
+    padding: 10px 0;
+
+    &.amount,
+    &.gas,
+    &.total {
+      border-bottom: 1px solid #cbddff;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin-bottom: 0;
+    }
+
+    &.amount,
+    &.gas {
+      .converted {
+        float: right;
+        font-size: 14px;
+        padding-top: 10px;
+      }
+    }
+
+    &.total {
+      background-color: #e7f0fe;
+      margin: 15px -15px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-bottom: 0;
+
+      .converted {
+        color: #a2b3d4;
+        display: block;
+        margin-left: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .label {
+    color: #4665c2;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0;
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .value {
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+
+    .glyphicon {
+      font-size: 17px;
+      float: right;
+    }
+
+    .raw {
+      color: #4a4a4a;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 30px;
+      display: inline-block;
+    }
+
+    .converted {
+      color: #a2b3d4;
+      font-size: 18px;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+  }
+}

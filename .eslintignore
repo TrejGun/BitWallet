@@ -1,0 +1,13 @@
+node_modules
+dist
+builds
+docs
+
+development/bundle.js
+development/states.js
+
+app/scripts/lib/extension-instance.js
+app/scripts/chromereload.js
+
+
+

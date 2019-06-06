@@ -1,0 +1,14 @@
+@import "settings/index.scss";
+@import "info/index.scss";
+
+.settings {
+  position: relative;
+  background: $white;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .dropdown-menu {
+    max-height: 200px;
+    overflow: auto;
+  }
+}

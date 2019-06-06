@@ -1,0 +1,11 @@
+@import "placeholder/index";
+@import "list.scss";
+
+.search,
+.custom,
+.autoload {
+  .btn {
+    display: block;
+    width: 100%;
+  }
+}

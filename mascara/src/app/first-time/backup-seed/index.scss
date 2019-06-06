@@ -1,0 +1,36 @@
+.backup-phrase {
+  &__secret {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  &__secret-words {
+    color: #5b5d67;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px;
+
+    &--hidden {
+      filter: blur(5px);
+    }
+  }
+
+  &__secret-blocker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 15px;
+  }
+}

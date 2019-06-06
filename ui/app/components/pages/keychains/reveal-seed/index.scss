@@ -1,0 +1,19 @@
+.reveal-seed {
+  &__secret {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #cdcdcd;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+
+  &__secret-words {
+    color: #5b5d67;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px;
+  }
+}

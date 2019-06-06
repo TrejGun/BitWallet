@@ -1,0 +1,80 @@
+input[type="submit"][disabled] {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.form-group {
+  input[type="file"] {
+    left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    display: block;
+  }
+
+  .btn {
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #cbdaff;
+    border-color: #cbdaff;
+    color: #4d6aaa;
+    text-transform: none;
+  }
+
+  .form-control[type=text],
+  .form-control[type=email],
+  .form-control[type=password],
+  .form-control[type=number] {
+    font-weight: 500;
+    font-size: 13px;
+    box-shadow: none;
+    background-color: #ecf3ff;
+    padding: 10px 12px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #cbddff;
+
+    &::placeholder {
+      font-size: 12px;
+      color: #94b9ff;
+    }
+  }
+
+  textarea.form-control[type=text] {
+    height: 100px;
+  }
+}
+
+.input-group {
+  border-radius: 4px;
+  border: 1px solid #cbdaff;
+
+  .input-group-addon {
+    border: 0;
+    background-color: #ecf3ff;
+  }
+
+  .form-control[type=text],
+  .form-control[type=email],
+  .form-control[type=password],
+  .form-control[type=number] {
+    border: 1px solid #ecf3ff;
+  }
+}
+
+.navbar-header {
+  .form-group {
+    margin-bottom: 0;
+  }
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 11px;
+  color: #4a4a4a;
+}

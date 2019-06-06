@@ -1,0 +1,37 @@
+.send {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  padding-bottom: 56px;
+
+  .input-group-btn {
+    .btn {
+      padding: 10px 0;
+      width: 50px;
+      font-size: 15px;
+    }
+  }
+
+  .btn-group {
+    &.dropdown {
+      width: 100%;
+
+      .btn {
+        width: 100%;
+        text-align: left;
+
+        .caret {
+          position: absolute;
+          right: 12px;
+          top: calc(50% - 2px);
+        }
+      }
+    }
+  }
+
+  .dropdown-menu {
+    width: 100%;
+    min-width: 320px; // sx
+  }
+}
+

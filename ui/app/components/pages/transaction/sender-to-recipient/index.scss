@@ -1,0 +1,71 @@
+.sender-to-recipient {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  }
+
+  &__sender,
+  &__recipient {
+    width: 100%;
+    padding: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #cbddff;
+
+    .label {
+      display: block;
+      color: #4665c2;
+      font-size: 10px;
+      text-transform: uppercase;
+      padding: 0;
+      text-align: left;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+
+    .name {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex: 1;
+    }
+
+  }
+
+  &__sender {
+    margin-right: 30px;
+  }
+
+  &__recipient {
+    margin-left: 30px;
+  }
+
+  &__arrow-container {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__arrow-circle {
+    background-color: rgba(92, 161, 241, .1);
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__name {
+    padding-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

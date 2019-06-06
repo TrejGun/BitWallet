@@ -1,0 +1,41 @@
+@import "./assets/index";
+@import "./transactions/index";
+@import "./tokens/index";
+
+#data-tabs {
+  margin-bottom: 40px;
+}
+
+#data-tabs-tab-transactions,
+#data-tabs-tab-tokens,
+#data-tabs-tab-assets {
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 15px;
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+#data-tabs-tab-transactions {
+  background-image: url("/app/images/tabs/Trans_1.png");
+
+  .active & {
+    background-image: url("/app/images/tabs/Trans_2.png");
+  }
+}
+
+#data-tabs-tab-tokens {
+  background-image: url("/app/images/tabs/Tok_1.png");
+
+  .active & {
+    background-image: url("/app/images/tabs/Tok_2.png");
+  }
+}
+
+#data-tabs-tab-assets {
+  background-image: url("/app/images/tabs/Asset_1.png");
+
+  .active & {
+    background-image: url("/app/images/tabs/Asset_2.png");
+  }
+}

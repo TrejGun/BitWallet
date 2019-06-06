@@ -1,0 +1,19 @@
+/*
+  Generic
+ */
+
+html,
+body {
+  font-family: $primary-font-type;
+  color: #000000;
+  background: #ffffff;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-height: 500px;
+}

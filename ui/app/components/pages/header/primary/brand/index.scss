@@ -1,0 +1,14 @@
+.navbar {
+  &.primary {
+    .navbar-header {
+      .navbar-brand {
+        font-family: $primary-font-type;
+        color: #314b88;
+        height: 45px;
+        line-height: 17px; // 15
+        font-weight: 500;
+        font-size: 15px;
+      }
+    }
+  }
+}

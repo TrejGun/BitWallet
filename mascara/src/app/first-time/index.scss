@@ -1,0 +1,86 @@
+.first-time-flow {
+  margin: 0 auto;
+  // padding: 15px;
+  min-height: calc(100% - 91px);
+  height: calc(100% - 91px);
+  overflow: auto;
+
+  &__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    white-space: pre-line;
+    // margin-top: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #4665c2;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__description {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    color: #4d6aaa;
+    font-size: 13px;
+
+    &:hover {
+      color: $primary-color-hover;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.info {
+  font-size: 19px;
+}
+
+.welcome-screen,
+.create-password,
+.confirm-seed,
+.unique-image,
+.tou,
+.backup-phrase,
+.import-seed-phrase,
+.import-json-file,
+.import-private-key,
+.buy-ether {
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 56px;
+}
+
+.btn-toolbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@import "welcome/index.scss";
+@import "seed-phrase/index.scss";
+@import "backup-seed/index.scss";
+@import "create-password/index.scss";
+@import "notice/index.scss";
+@import "unique-image/index.scss";
+@import "confirm-seed/index.scss";
+@import "../shapeshift-form/index.scss";
+

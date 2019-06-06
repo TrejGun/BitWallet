@@ -1,0 +1,73 @@
+.balance {
+  .row {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+
+    [class*="col-"]:not(:first-child),
+    [class*="col-"]:not(:last-child) {
+      padding-right: 7.5px;
+      padding-left: 7.5px;
+    }
+  }
+
+  .panel {
+    background-color: rgba(92, 161, 241, .1);
+    margin-top: 20px;
+    border-radius: 6px;
+    border-color: transparent;
+
+    .value {
+      min-height: 102px;
+      margin: 20px 10px 0 10px;
+      text-align: center;
+      font-weight: 500;
+
+      .raw {
+        color: #000000;
+        font-size: 18px;
+        line-height: 32px;
+      }
+
+      .converted {
+        color: #c7c7c7;
+        font-size: 12px;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    .btn-toolbar {
+      margin-left: 0;
+      position: relative;
+
+      > .btn-group {
+        width: 100%;
+        margin-left: 0;
+
+        .btn {
+          margin-left: 0;
+          width: 50%;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+        }
+      }
+    }
+  }
+}
+
+.row.half-gutter {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.row.half-gutter [class*="col-"]:not(:first-child),
+.row.half-gutter [class*="col-"]:not(:last-child) {
+  padding-right: 7.5px;
+  padding-left: 7.5px;
+}
+

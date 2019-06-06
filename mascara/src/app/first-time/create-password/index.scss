@@ -1,0 +1,40 @@
+.create-password {
+  .btn-toolbar {
+    display: block;
+  }
+
+  .fancy {
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 15px;
+    overflow: hidden;
+    color: #4a4a4a;
+    font-weight: 500;
+    width: 100%;
+
+    span {
+      display: inline-block;
+      position: relative;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        height: 50%;
+        border-bottom: 1px solid #bfbfbf;
+        top: 0;
+        width: 100%;
+      }
+
+      &::before {
+        right: 100%;
+        margin-right: 15px;
+      }
+
+      &::after {
+        left: 100%;
+        margin-left: 15px;
+      }
+    }
+  }
+}

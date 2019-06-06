@@ -1,0 +1,21 @@
+.confirm-seed__confirm-secret {
+  height: 190px;
+  width: 495px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin: 25px 0 36px;
+  padding: 17px;
+}
+
+.confirm-seed__confirm-seed-options {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  .btn {
+    margin-right: 10px;
+    padding: 0 5px;
+    border-radius: 10px;
+  }
+}

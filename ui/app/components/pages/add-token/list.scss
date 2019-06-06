@@ -1,0 +1,27 @@
+#add-token-tabs-pane-autoload,
+#add-token-tabs-pane-search {
+  .list-group-item {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+
+    img {
+      margin-right: 5px;
+    }
+
+    .name {
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .disabled {
+      &,
+      &:focus,
+      &:hover {
+        background-color: #d3e3fb;
+      }
+    }
+  }
+}

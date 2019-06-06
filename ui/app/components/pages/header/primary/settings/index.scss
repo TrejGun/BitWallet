@@ -1,0 +1,19 @@
+.navbar {
+  &.primary {
+    .navbar-header {
+      .settings {
+        color: #314b88;
+        margin: 15px;
+        padding: 0;
+        float: right;
+        outline: 0;
+        line-height: 15px;
+        height: 15px; // wtf
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

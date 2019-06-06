@@ -1,0 +1,25 @@
+.markdown {
+  max-height: 370px;
+  overflow-y: auto;
+
+  em {
+    color: #9b9b9b;
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

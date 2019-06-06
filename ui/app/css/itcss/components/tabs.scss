@@ -1,0 +1,43 @@
+.nav-tabs {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a2b3d4;
+
+  &::before,
+  &::after {
+    display: none;
+  }
+
+  > li {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+
+    > a {
+      color: #a2b3d4;
+      border: 0;
+      outline: 0;
+      border-bottom: 1px solid #a2b3d4;
+
+      &:hover {
+        background-color: transparent;
+      }
+    }
+
+    &.active {
+      border-bottom: 1px solid #466bc2;
+
+      a {
+        &,
+        &:hover,
+        &:focus,
+        &:active,
+        &:active:focus {
+          border: 0;
+          color: #466bc2;
+        }
+      }
+    }
+  }
+}
